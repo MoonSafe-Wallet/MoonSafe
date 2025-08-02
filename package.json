@@ -1,0 +1,48 @@
+{
+  "name": "Moonsafe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solana-program/token": "^0.5.1",
+    "@solana/kit": "^2.3.0",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.2",
+    "@supabase/supabase-js": "^2.53.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "axios": "^1.10.0",
+    "esrun": "^3.2.30",
+    "install": "^0.13.0",
+    "jwt-decode": "^4.0.0",
+    "npm": "^11.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.1",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@privy-io/react-auth": "^2.18.1",
+    "@types/node": "^24.0.14",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "buffer": "^6.0.3",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "process": "^0.11.10",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "util": "^0.12.5",
+    "vite": "^7.0.4"
+  }
+}
