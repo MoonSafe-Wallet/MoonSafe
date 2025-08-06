@@ -10,6 +10,8 @@ import { ThemeProvider, useTheme } from './contexts/ThemeContext';
 import { storeUserDetails } from './utils/apiClient';
 import CreateQuest from './component/libs/createQuest';
 import ActiveQuest from './component/libs/quest';
+import Swap from './component/Swap';
+import SwapPage from './pages/swapPage';
 
 function AppContent() {
   const { ready, authenticated, user } = usePrivy();
@@ -85,6 +87,7 @@ function AppContent() {
             <Route path="/tokens" element={<TokenAccount />} />
             <Route path="/create-quest" element={<CreateQuest />} />
             <Route path="/quests" element={<ActiveQuest />} />
+            <Route path="/swap" element={<SwapPage />} />
           </Routes>
         </div>
       </div>
